@@ -2,25 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>MERNa Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Dice Roller</title>
 	<style>
 		#urlInput {
             width: 500px; 
             padding: 10px;
             font-size: 14px;
         }
-        #favoritePlacesJSON, #batmanJSON {
+        /* #favoritePlacesJSON, #batmanJSON {
             padding: 20px;
             background-color: lightgray;
             margin-top: 20px;
         }
 		#testingDiv {
             display: none;
-        }
+        } */
     </style>
 </head>
 <body>
-	<h1>MERNa Web Application</h1>
+    <div class="bottom">
+        
+
+    </div>
+
+    <div class="title">
+        <h1>Pass the Pig Dice Roller</h1>
+
+    </div>
+    <div class="container">
+        <h3>Rules of Play:</h3>
+        <h5>Regular Pig</h5>
+        <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+        <ul>
+            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+        </ul>
+        <p>The first player to score 100 or more points wins.</p>
+        <p>For example, the first player, Donald, begins a turn with a roll of 5. Donald could hold and score 5 points, 
+            but chooses to roll again. Donald rolls a 2, and could hold with a turn total of 7 points, 
+            but chooses to roll again. Donald rolls a 1, and must end his turn without scoring. 
+            The next player, Alexis, rolls the sequence 4-5-3-5-6, after which she chooses to hold, 
+            and adds her turn total of 23 points to her score. </p>   
+            
+    </div>
+
+    <div class="container">
+        <h3>Another Variation:</h3>
+        <h5>Two-Dice Pig</h5>
+        <p>The game can be played with a pair of dice instead of one</p>
+        <p>This variation is the same as Pig, except:</p>
+        <ul>
+            <li>Two standard dice are rolled. If neither shows a 1, their sum is added to the turn total.</li>
+            <li>If a single 1 is rolled, the player scores nothing and the turn ends.</li>
+            <li>If two 1s are rolled, the player's entire score is lost, and the turn ends.</li>
+            <li>If a double is rolled, the point total is added to the turn total as with any roll but the player is obligated to roll again (possible sub-variation of the two-dice game)</li>
+        </ul>
+        <p>Some versions of this game instead use 6 as the "bad" die face.</p>
+
+    </div>
+	
 
 </body>
 </html>
