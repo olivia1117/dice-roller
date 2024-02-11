@@ -17,6 +17,7 @@ The first player to score 100 or more points wins.
 
 For example, the first player, Donald, begins a turn with a roll of 5. Donald could hold and score 5 points, but chooses to roll again. Donald rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Donald rolls a 1, and must end his turn without scoring. The next player, Alexis, rolls the sequence 4-5-3-5-6, after which she chooses to hold, and adds her turn total of 23 points to her score. 
 
+Once the webpage is loaded, you can either start with the randomly generated number that already appears on the screen or you either click the Roll Again! button or press the enter key to generate a new one. 
 
 #### Credits: 
 photo credits: <a href="https://www.istockphoto.com">https://www.istockphoto.com</a> <br>
