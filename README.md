@@ -19,8 +19,8 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 
 
 #### Credits: 
-photo credits: <a href="https://www.istockphoto.com">https://www.istockphoto.com</a>
-directions sourced from: <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)">https://en.wikipedia.org/wiki/Pig_(dice_game)</a>
+photo credits: <a href="https://www.istockphoto.com">https://www.istockphoto.com</a> <br>
+directions sourced from: <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)">https://en.wikipedia.org/wiki/Pig_(dice_game)</a> <br> 
 
 ##### Code: 
 these lines were sourced from ChatGPT in order to get the enter key working properly to trigger a new random number to be generated any time it is pressed at any point on the screen: 
