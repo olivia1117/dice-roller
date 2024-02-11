@@ -1,8 +1,8 @@
 # Web Dice Roller for Pass the Pigs
 #### Preliminary Info: 
-created by: Olivia Adamic 
-email: oliviaradamic@lewisu.edu
-project name: Web Dice Roller
+created by: Olivia Adamic <br>
+email: oliviaradamic@lewisu.edu <br>
+project name: Web Dice Roller <br>
 
 #### How to Play: 
 ##### Regular Pig
