@@ -12,8 +12,8 @@ function generateRandomNumber() {
   }
 
   document.addEventListener("keypress", function(event) {
-    if (event.key === "Enter") { // Check if the Enter key is pressed
-      generateRandomNumber(); // Call the function to generate the random number
+    if (event.key === "Enter") { // check if the Enter key is pressed
+      generateRandomNumber(); // call the function to generate the random number
     }
   });
 
