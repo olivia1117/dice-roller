@@ -19,6 +19,14 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 
 Once the webpage is loaded, you can either start with the randomly generated number that already appears on the screen or you either click the Roll Again! button or press the enter key to generate a new one. 
 
+To check out this webpage through Azure, click on this link: <a href="https://white-mushroom-04c1eb110.4.azurestaticapps.net/">Link to site</a>
+
+#### Required files to run locally: 
+- index.html
+- index.css
+- scripts.js
+- pigs.jpg
+
 #### Credits: 
 photo credits: <a href="https://www.istockphoto.com">https://www.istockphoto.com</a> <br>
 directions sourced from: <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)">https://en.wikipedia.org/wiki/Pig_(dice_game)</a> <br> 
