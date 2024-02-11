@@ -2,7 +2,8 @@
 
 #### How to Play: 
 directions sourced from: <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)">https://en.wikipedia.org/wiki/Pig_(dice_game)</a>
-- Regular Pig
+
+##### Regular Pig
 
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
 
