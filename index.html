@@ -4,24 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="script.js"></script>
     <title>Dice Roller</title>
-	<style>
-		#urlInput {
-            width: 500px; 
-            padding: 10px;
-            font-size: 14px;
-        }
-        /* #favoritePlacesJSON, #batmanJSON {
-            padding: 20px;
-            background-color: lightgray;
-            margin-top: 20px;
-        }
-		#testingDiv {
-            display: none;
-        } */
-    </style>
 </head>
-<body>
+<!-- this onload feature ensures that whenever the page is refreshed, the numbers will still be randomly generated -->
+<body onload="generateRandomNumber()">
     <div class="bottom">
         
 
@@ -31,6 +18,7 @@
         <h1>Pass the Pig Dice Roller</h1>
 
     </div>
+    <!-- explanation of the rules of play for the game inside of a container -->
     <div class="container">
         <h3>Rules of Play:</h3>
         <h5>Regular Pig</h5>
@@ -49,21 +37,15 @@
             
     </div>
 
-    <div class="container">
-        <h3>Another Variation:</h3>
-        <h5>Two-Dice Pig</h5>
-        <p>The game can be played with a pair of dice instead of one</p>
-        <p>This variation is the same as Pig, except:</p>
-        <ul>
-            <li>Two standard dice are rolled. If neither shows a 1, their sum is added to the turn total.</li>
-            <li>If a single 1 is rolled, the player scores nothing and the turn ends.</li>
-            <li>If two 1s are rolled, the player's entire score is lost, and the turn ends.</li>
-            <li>If a double is rolled, the point total is added to the turn total as with any roll but the player is obligated to roll again (possible sub-variation of the two-dice game)</li>
-        </ul>
-        <p>Some versions of this game instead use 6 as the "bad" die face.</p>
+    <div class="dice-container">
+        <p>You rolled a: <span id="randomNumberDisplay"></span></p> 
+        <button class="roll" id="generateButton" type="button" onclick="generateRandomNumber()">Roll Again!</button>
 
     </div>
-	
 
 </body>
 </html>
+
+<!-- <p>You rolled a: <p id="randomNumberDisplay"></p></p> grabbing the function to display the random number -->
+<!-- <button class="roll" id="generateButton">Roll Again!</button>     customizing the color of button and then using the generateButton function to allow it to generate a new number by clicking -->
+<!-- <p id="randomNumberInput" autofocus> using autofocus to allow for the enter key to generate a new number -->
