@@ -8,7 +8,7 @@
     <title>Dice Roller</title>
 </head>
 <!-- this onload feature ensures that whenever the page is refreshed, the numbers will still be randomly generated -->
-<body onload="generateRandomNumber()">
+<body onload="displayNum()">
     <div class="bottom">
         
 
@@ -40,8 +40,7 @@
     
     <div class="dice-container">
         <p>You rolled a: <span id="randomNumberDisplay"></span></p> <!-- text to display the random number -->
-        <button class="roll" id="generateButton" type="button" onclick="generateRandomNumber()">Roll Again!</button><!-- setting the button to the css class and then when it is clicked, then it will roll again -->
-
+        <button class="roll" id="generateButton" type="button" onclick="displayNum()">Roll Again!</button><!-- setting the button to the css class and then when it is clicked, then it will roll again -->
     </div>
 
 </body>

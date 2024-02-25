@@ -7,74 +7,63 @@
     padding-bottom: 50vh;
 }
 
-body{
+/* Body styles */
+body {
     background-color: #bb6f5c;
-}
+    margin: 0;
+    padding: 0;
+  }
 
-/* this is for the title block near the top */
-.title{
-    background-color:#ffcb58;
+  p {
+    overflow-wrap: break-word;
+    max-width: 100ch;
+    font-size:large;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8b186;
     color: rgb(54, 54, 55);
     padding: 20px;
-    text-align: center; 
-    width:auto;
-    border-radius: 10px; 
-    margin-top: 20px; 
-    margin-left: 10px; 
-    margin-right: 10px; 
-    
-}
-
-/* this is for the container on the left for the rules */
-.container{
-    background-color:#e8b186;
-    color: rgb(54, 54, 55);
-    padding: 20px;
-    text-align: left; 
-    width:100ch;
-    border-radius: 10px; 
-    margin-top: 20px; 
-    margin-left: 10px; 
-    margin-right: 10px; 
-    overflow: hidden; 
-    float: left;
-    width: 45%; 
-    padding-bottom: 10px;
-
-    
-    
-}
-
-/* this is for the container on the right for the button and each random roll */
-.dice-container{
-    background-color:#e8b186;
-    text-align: center; 
+    text-align: left;
     border-radius: 10px;
-    height: 386px;
-    margin-top: 20px; 
-    margin-left: 10px; 
-    /* display: inline-block; */
-    width: 50%; 
-    margin-right: 1px; 
-    padding-top:50px; 
-    display: inline-block;
-    padding-bottom: 10px;
+    margin: 20px;
 
-
-}
-
-/* this specifies the roll button color, size, formatting, etc */
-.roll{
-    background-color:#ffcb58; 
+    
+  }
+  
+  /* Title styles */
+  .title {
+    background-color: #ffcb58;
+    color: rgb(54, 54, 55);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  /* Dice container styles */
+  .dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8b186;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Roll button styles */
+  .roll {
+    background-color: #ffcb58;
     border-radius: 5px;
-    width:130px; 
-    height: 40px; 
-    margin-top: 10%; 
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
     font-size: medium;
-
-}
-
-p {
-    font-size: large; 
-}
-
+  }
+  
